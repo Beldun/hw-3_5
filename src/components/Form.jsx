@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { updateFormData } from '../pages/formReducer';
+import { updateFormData } from '../store/formReducer';
 
 const Form = () => {
   const [name, setName] = useState('');
